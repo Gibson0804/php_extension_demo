@@ -37,8 +37,7 @@ zend_module_entry ukulele_module_entry = {
     STANDARD_MODULE_PROPERTIES
 };
 
-
-#ifdef COMPILE_DL_ukulele
+#ifdef COMPILE_DL_UKULELE
 ZEND_GET_MODULE(ukulele)
 #endif
 
